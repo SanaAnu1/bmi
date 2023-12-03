@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Satisfy&display=swap');
+.all{
+    background: #989595;
+}
+.header{
+    height: 70px;
+    width: 100%;
+}
+#az{
+    width: 75%;
+    margin: auto;
+
+    position: sticky;
+    top:0px;
+    background-color: white;
+    border: 2px solid grey;
+border-bottom: none;
+} 
+.i1{
+    text-decoration: none;
+    font-family: 'Amiko', sans-serif !important;
+    color: #670303;
+    font-size: 30px;
+}
+.a2{
+    color: #670303;
+}
+#i2{
+color:white ;
+
+}
+.d{
+    border: 2px solid grey;
+    width: 75%;
+    margin: auto;
+}
+.s{
+    width: 50%;
+    margin: auto;
+
+}
+.b{
+    box-sizing: border-box;
+}
+.im{
+    width: 75%;
+    margin: 0px;
+}
+@media (max-width:1020px){
+.d,#az{
+    width: 100%;
+}
+.s{
+    width: 100%;
+}
+.im{
+    width: 98%;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+}
